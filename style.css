@@ -1,1 +1,198 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  body {
+    background-color: #3d5952;
+  }
+  .keyboard {
+    font-size: 16px;
+    width: 80%;
+    max-width: 34em;
+    position: relative;
+    
+    
+    padding: 3em;
+   border: 1px solid red;
+    
+  }
+  
+  .main {
+    font-size: 16px;
+    width: 80%;
+    max-width: 34em;
+    position: absolute;
+    padding: 3em;
+   border: 1px solid red;
+    
+  }
+  
+  .container {
+    font-size: 16px;
+    width: 80%;
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+   border: 0px solid red;
+    
+  }
+  #gametitle {
+    text-align: center;
+    color: #f4c531;
+  }
+  #gametitle div {
+    width: 100%;
+    justify-content: space-between;
+    margin: 1.2em 0 2.4em 0;
+  }
+  #gametitle button {
+    padding: 1.2em;
+    border: 2px solid #ff7b00;
+    background-color: #bda273;
+    color: #f5eeee;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  #gametitle button:disabled {
+    border: 3px solid #808080;
+    color: #808080;
+    background-color: #efefef;
+  }
+  #gametitle button.active {
+    background-color: #f4c531;
+    border: 3px solid #000000;
+    color: #f1efef;
+  }
+  .KeyBoard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #KeyBoard button {
+    height: 3em;
+    width: 7em;
+    border-radius: 100px;
+    background-color: #bda273;
+    color: #130700;
+    font-size: 1em;
+    border: 3px solid rgb(250, 142, 0);
+    font-weight: bold;
+  }
+  
+  #KeyBoard button:disabled {
+    border: 2px dotted #215c4c;
+    color: #215c4c;
+    background-color: #3D5952;
+  }
+  .new-game-popup {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+    border: 0px;
+    border-radius: 25px;
+  }
+  
+  #LetterInput {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 0.6em 0 1.2em 0;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid #b6523c;
+  margin-bottom: 60px;
+  background-color: #1D2B27;
+  border-radius: 25px;
+  padding: 50px;
+  }
+  .hide {
+    display: none;
+  }
+  #EndGame h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #EndGame p {
+    font-size: 1.25em;
+    margin: 1em 0 2em 0;
+  }
+  #EndGame span {
+    font-weight: 600;
+  }
+  #Restart {
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    border: 3px solid #ff7b00;
+    background-color: #bda273;
+    color: #000000;
+    border-radius: 25px;
+  }
+  .win-msg {
+    color: #044124;
+  }
+  .lose-msg {
+    color: #a30000;
+  }
+  .dash{
+  padding: 5px;
+    justify-content: center;
+    gap: 0.6em;
+    margin-top: 20px;
+  }
+  
+  
+  .screen {
+    display: block;
+    margin: auto;
+    border: 1px solid #b6523c;
+  margin-bottom: 60px;
+  background-color: #1d2b27;
+  border-radius: 25px;
+  padding: 50px;
+  color: #b8b2ac;
+  line-height: 1.5;
+  }
+  .screen h1{color: #b6523c;}
+  
+  .btn {
+    padding: 2em;
+    border: 2px solid #ff7b00;
+    background-color: #bda273;
+    border-radius: 25px;
+    text-transform: capitalize;
+    color: #efefef;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .btn a{  color: #efefef;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;}
+  a{
+    color: #efefef;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
