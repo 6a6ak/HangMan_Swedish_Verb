@@ -1,1 +1,1 @@
-# HangMan_Swedish_Werb
+# HangMan_Swedish_Verb
